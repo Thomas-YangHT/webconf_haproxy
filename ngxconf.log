@@ -1,0 +1,413 @@
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  access  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  access;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  access  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  access;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
+
+
+
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+mynginx;Up 38 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+
+
+
+
+
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp 5 minutes0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp 18 minutes0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ mynginx;Up 27 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 34 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 48 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 50 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 56 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 59 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+ mynginx;Up 11 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 53 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 9 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 10 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 11 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 23 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 23 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 21 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 22 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+
+
+
+
+
+ mynginx;Up 5 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ cmpnginx_nginx_1;Up 52 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+ cmpnginx_nginx_1;Up 4 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 4 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 11 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 12 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 31 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 11 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 19 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 9 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 24 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 53 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] unknown directive //开启目录浏览功能； in /etc/nginx/conf.d/download.yunwei.edu.conf:12
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 9 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 21 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmp_nginx_nginx_1;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmp_nginx_nginx_1;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmp_nginx_nginx_1;Up 11 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+
+
+
+
+
+ cmpnginx_nginx_1;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 5 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 7 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 14 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 19 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 19 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+Error response from daemon: Cannot restart container cmpnginx_nginx_1: open /var/lib/docker/containers/9c86ca4ed6fe5c268b417172d093444bf6bf23577612f4439c5f69702b1b4f5f/.tmp-hostconfig.json341066909: no space left on device
+Error response from daemon: Cannot restart container cmpnginx_nginx_1: open /var/lib/docker/containers/7a9c5d59289b801837410b995cd2d104cbff3c2a717bb34a681092b3bb7101bf/.tmp-hostconfig.json960821700: no space left on device
+
+ cmpnginx_nginx_1;Up About a minute;
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu in /etc/nginx/conf.d/dns.yunwei.edu.conf:10
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 3 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 3 days;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 16 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 3 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 13 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 2 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 19 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up About a minute;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 2 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 4 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 7 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 7 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+ cmpnginx_nginx_1;Up 2 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 14 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up About a minute;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 2 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 2 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+ cmpnginx_nginx_1;Up 2 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+nginx: [emerg] host not found in upstream kvm123:3000 in /etc/nginx/conf.d/upstream.conf:6
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+cmpnginx_nginx_1
+cmpnginx_nginx_1
+
+ cmpnginx_nginx_1;Up 31 seconds;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/udp
+
